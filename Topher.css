@@ -1,6 +1,7 @@
 /* General Styling */
 body {
-    background-color: rgba(174, 98, 32, 0.95);
+    /*background-color: rgba(174, 98, 32, 0.95);*/
+    background: linear-gradient(30deg, rgb(12, 18, 84) 40%, rgb(255, 150, 27) 100%);
     margin: 0;
     font-family: HankenGrotesk, Arial, sans-serif;
     font-weight: bolder;
@@ -116,11 +117,6 @@ button {
     -webkit-background-clip: text;
 }
 
-#co-op-cast span {
-    background: linear-gradient(45deg, rgb(33, 28, 170), rgb(104, 29, 253), rgb(69, 203, 252));
-    -webkit-background-clip: text;
-}
-
 #youtubeVods span {
     background: linear-gradient(45deg, rgb(33, 28, 170), rgb(104, 29, 253), rgb(69, 203, 252));
     -webkit-background-clip: text;
@@ -199,6 +195,13 @@ h1:hover, h4:hover, h5:hover, h6:hover, button:hover {
 #description-four, #description-five, #description-six {
     background-size: 200% 200%;
     animation: gradientShift 4s infinite alternate ease-in-out;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    background-size: 150% 150%;
+    animation: gradientShift 10s infinite alternate ease-in-out;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
