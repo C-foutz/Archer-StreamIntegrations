@@ -95,7 +95,7 @@ button {
 }
 
 .top-links a {
-    color: white;
+    color: white !important;
     text-decoration: none;
 }
 
@@ -202,6 +202,4 @@ h1:hover, h4:hover, h5:hover, h6:hover, button:hover {
 body {
     background-size: 150% 150%;
     animation: gradientShift 10s infinite alternate ease-in-out;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
