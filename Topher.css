@@ -1,7 +1,7 @@
 /* General Styling */
 body {
     /*background-color: rgba(174, 98, 32, 0.95);*/
-    background: linear-gradient(30deg, rgb(12, 18, 84) 40%, rgb(255, 150, 27) 100%);
+    background: linear-gradient(30deg, rgb(149 70 20) 10%, rgb(228 133 20), rgb(169 120 67), rgb(90 87 90), rgb(51 71 90), rgb(2 50 76), rgb(2 33 61), rgb(1 25 49), rgb(2 13 31) 100%);
     margin: 0;
     font-family: HankenGrotesk, Arial, sans-serif;
     font-weight: bolder;
@@ -23,7 +23,7 @@ body {
 }
 
 /* Apply Gradient Effect to Specific Elements */
-#Name, #description, #description-two, #description-three,
+#description, #description-two, #description-three,
 #description-four, #description-five, #description-six {
     background: linear-gradient(rgb(88, 183, 255), rgb(88, 224, 255), rgb(88, 183, 255));
     -webkit-background-clip: text;
@@ -32,15 +32,15 @@ body {
 }
 
 /* Individual Gradient Effects for More Customization */
-#Name {
-    background: linear-gradient(45deg, rgb(102, 0, 255), rgb(0, 0, 255), rgb(63, 0, 255));
-    -webkit-background-clip: text;
-    text-shadow: 0 0 10px rgba(102, 0, 255, 0.7),
-    0 0 20px rgba(0, 0, 255, 0.7),
-    0 0 30px rgba(63, 0, 255, 0.7);
-}
+/*#Name {*/
+/*    background: linear-gradient(45deg, rgb(102, 0, 255), rgb(0, 0, 255), rgb(63, 0, 255));*/
+/*    -webkit-background-clip: text;*/
+/*    text-shadow: 0 0 10px rgba(102, 0, 255, 0.7),*/
+/*    0 0 20px rgba(0, 0, 255, 0.7),*/
+/*    0 0 30px rgba(63, 0, 255, 0.7);*/
+/*}*/
 
-#description, #description-two, #description-three {
+#Name, #description, #description-two, #description-three {
     background: linear-gradient(rgb(255, 255, 255), rgb(184, 180, 180), rgb(170, 170, 170));
     -webkit-background-clip: text;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.7),
