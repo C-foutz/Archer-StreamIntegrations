@@ -199,6 +199,7 @@ h1:hover, h4:hover, h5:hover, h6:hover, button:hover {
     -webkit-text-fill-color: transparent;
 }
 
+/*Apply the Gradient Animation to Background*/
 body {
     background-size: 150% 150%;
     animation: gradientShift 10s infinite alternate ease-in-out;
