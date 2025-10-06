@@ -1,6 +1,6 @@
 /* General Styling */
 html {
-    background-color: black;
+    background: linear-gradient(30deg, rgb(149 70 20) 10%, rgb(228 133 20), rgb(169 120 67), rgb(90 87 90), rgb(51 71 90), rgb(2 50 76), rgb(2 33 61), rgb(1 25 49), rgb(2 13 31) 100%);
 }
 
 body {
@@ -215,4 +215,5 @@ body {
     }
 
 }
+
 
