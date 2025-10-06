@@ -203,3 +203,9 @@ body {
     background-size: 150% 150%;
     animation: gradientShift 10s infinite alternate ease-in-out;
 }
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: calc(1.5vw + 1.5vh) !important;
+    }
+}
